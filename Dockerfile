@@ -16,5 +16,3 @@ RUN wget https://detect.synopsys.com/detect.sh && \
     mkdir /opt/blackduck/ && \
     mv detect.sh /opt/blackduck/ && \
     chmod +x /opt/blackduck/detect.sh
-
-ENTRYPOINT ["/opt/blackduck/detect.sh"]
